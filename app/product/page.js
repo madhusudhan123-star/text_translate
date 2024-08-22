@@ -645,6 +645,7 @@ const Page = () => {
     if (recognitionRef.current) {
       recognitionRef.current.start();
       setListening(true);
+      setEditableTranscript('');
     }
   };
 
